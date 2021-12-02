@@ -12,11 +12,11 @@ namespace Задание_4._1
         {
             Console.Write("Введите число:  ");
             int N = Convert.ToInt32(Console.ReadLine());
-            for (int n = 1; n <= N; n++)
+            for (int i = 1; i <= N; i++)
             {
-                int N1 = (n * 2) - 1;
-                int sum = n * n;
-                Console.WriteLine("Число n = {0} , сумма = {1}", N1, sum);
+                int n = (i * 2) - 1;
+                int sum = i * i;
+                Console.WriteLine("Нечетное число n = {0} , квадрат числа = {1}", n, sum);
             }
             Console.ReadKey();
         }
